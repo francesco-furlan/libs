@@ -97,8 +97,8 @@ jobs:
   build-shared-libs-linux-arm64:
     name: build-shared-libs-linux-arm64 🧐
     runs-on:
-      group: Default
-      labels: oracle-aarch64-4cpu-16gb
+      group: Default Larger Runners
+      labels: github-arm64-2c-8gb
     steps:
       - name: Checkout Libs ⤵️
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
