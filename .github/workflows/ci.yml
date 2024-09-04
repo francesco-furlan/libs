@@ -95,7 +95,7 @@ jobs:
           make run-unit-tests -j4
 
   build-shared-libs-linux-arm64:
-    name: build-shared-libs-linux-amd64 🧐
+    name: build-shared-libs-linux-arm64 🧐
     runs-on:
       group: Default
       labels: oracle-aarch64-4cpu-16gb
